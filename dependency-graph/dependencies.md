@@ -6,20 +6,25 @@
 ## Layer 1: Strategy & Intelligence (inputs to everything)
 - marketing-intelligence (strategy + research + intelligence) → depends on: marketing-core
   - skills: growth-strategy, gtm-plan, icp-builder, positioning-framework, customer-research, reddit-research, review-mining, competitor-audit
+  - wave-1: market-sizing, customer-interviews, survey-design, social-listening, trend-detection, pricing-intelligence, competitor-battlecards, account-intelligence
 
 ## Layer 2: Messaging & Content (consumes research, feeds channels)
 - marketing-messaging (copy + content) → depends on: marketing-core, marketing-intelligence
   - skills: conversion-copywriting, landing-page-copy, content-strategy
+  - wave-1: brand-voice, value-proposition, messaging-hierarchy, customer-language-bank, objection-handling, email-copy, case-study-builder, sales-deck, video-scripts
 
 ## Layer 3: Channels (execution layer)
 - marketing-channels (seo + ai-search + social + email + outbound) → depends on: marketing-core, marketing-intelligence, marketing-messaging
   - skills: keyword-research, seo-audit, ai-search-audit, linkedin-content, social-strategy, lifecycle-sequences, cold-email-sequence
+  - wave-1: technical-seo, link-building, programmatic-seo, local-seo, serp-analysis, entity-optimization, content-calendar, reddit-engagement, youtube-strategy, community-strategy
 - marketing-paid (paid + ad-creative + ecommerce) → depends on: marketing-core, marketing-intelligence, marketing-messaging
   - skills: paid-strategy, meta-ads, ad-creative-generator, hook-frameworks, shopify-marketing-audit
+  - wave-1: google-ads, linkedin-ads, tiktok-ads, amazon-ads, reddit-ads, media-planning, creative-testing, performance-reporting
 
 ## Layer 4: Optimization (improves channels)
 - marketing-optimize (analytics + attribution + cro + automation) → depends on: marketing-core
   - skills: metrics-framework, attribution-model-selection, cro-audit, workflow-builder
+  - wave-1: analytics-setup, funnel-analysis, landing-page-optimization, signup-flow, ab-testing, experiment-prioritization, mmm-incrementality
 
 ## Feedback Loops
 - marketing-optimize → feeds back into → marketing-intelligence (performance data → strategy)
