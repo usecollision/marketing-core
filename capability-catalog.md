@@ -27,9 +27,9 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 ### Market research
 | Capability | Status | Sub-capabilities |
 |---|---|---|
-| market-sizing | 🔧 | TAM/SAM/SOM, top-down, bottom-up, segment sizing |
+| market-sizing | ✅ | TAM/SAM/SOM, top-down, bottom-up, segment sizing |
 | market-map | 🗓 | category mapping, competitor positioning map |
-| market-trends | 🔧 | trend-detection, durability validation, signal sources |
+| market-trends | ✅ | trend-detection, durability validation, signal sources |
 | industry/category analysis | 🗓 | Porter's 5F, category lifecycle |
 | demand analysis | 🗓 | search demand, review velocity, Google Trends |
 | market forecasting | 🗓 | growth projections, scenario modeling |
@@ -38,11 +38,11 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | customer-research | ✅ | pain points, language, buying triggers |
-| customer-interviews | 🔧 | interview design, recruiting, synthesis |
-| survey-design | 🔧 | questionnaire bias, NPS/CSAT, response analysis |
+| customer-interviews | ✅ | interview design, recruiting, synthesis |
+| survey-design | ✅ | questionnaire bias, NPS/CSAT, response analysis |
 | reddit-research | ✅ | pain mining, subreddit discovery |
 | review-mining | ✅ | G2/App Store/Amazon/Capterra/TrustRadius |
-| social-listening | 🔧 | brand mentions, sentiment, conversation mining |
+| social-listening | ✅ | brand mentions, sentiment, conversation mining |
 | support-ticket mining | 🗓 | Zendesk/Intercom log analysis |
 | call-transcript analysis | 🗓 | Gong/Chorus mining |
 
@@ -50,8 +50,8 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | competitor-audit | ✅ | positioning, messaging, content, SEO, ads, product |
-| competitor-battlecards | 🔧 | win/loss plays, objection rebuttals |
-| pricing-intelligence | 🔧 | pricing teardowns, WTP estimation |
+| competitor-battlecards | ✅ | win/loss plays, objection rebuttals |
+| pricing-intelligence | ✅ | pricing teardowns, WTP estimation |
 | ad-library research | 🗓 | Meta/Google ad library mining |
 | technology analysis | 🗓 | BuiltWith/stack fingerprinting |
 
@@ -59,7 +59,7 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | icp-builder | ✅ | segmentation, validation |
-| account-intelligence | 🔧 | firmographics, technographics, funding signals (ABM) |
+| account-intelligence | ✅ | firmographics, technographics, funding signals (ABM) |
 | personas | 🗓 | persona assembly from research |
 | intent signals | 🗓 | G2 intent, review velocity, job-change triggers |
 
@@ -78,27 +78,27 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 ### Brand & positioning
 | Capability | Status | Sub-capabilities |
 |---|---|---|
-| brand-voice | 🔧 | voice guide, tone matrix, do/don't examples |
-| value-proposition | 🔧 | JTBD-based value props, USP |
-| messaging-hierarchy | 🔧 | positioning → pillars → proof points → taglines |
-| customer-language-bank | 🔧 | verbatim phrases by stage/pain |
+| brand-voice | ✅ | voice guide, tone matrix, do/don't examples |
+| value-proposition | ✅ | JTBD-based value props, USP |
+| messaging-hierarchy | ✅ | positioning → pillars → proof points → taglines |
+| customer-language-bank | ✅ | verbatim phrases by stage/pain |
 
 ### Copywriting
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | conversion-copywriting | ✅ | any-surface copy frameworks |
 | landing-page-copy | ✅ | hero → features → proof → objection → CTA |
-| email-copy | 🔧 | subject lines, preview, body, CTA |
+| email-copy | ✅ | subject lines, preview, body, CTA |
 | ad-copy | 🗓 | paid media copy (see marketing-paid hooks) |
-| objection-handling | 🔧 | rebuttals, pre-emptive copy |
-| video-scripts | 🔧 | short-form hooks, retain, payoff |
+| objection-handling | ✅ | rebuttals, pre-emptive copy |
+| video-scripts | ✅ | short-form hooks, retain, payoff |
 
 ### Content & proof
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | content-strategy | ✅ | organic traffic, authority |
-| case-study-builder | 🔧 | challenge-solution-results narrative |
-| sales-deck | 🔧 | pitch narrative, slide-by-slide |
+| case-study-builder | ✅ | challenge-solution-results narrative |
+| sales-deck | ✅ | pitch narrative, slide-by-slide |
 | thought leadership | 🗓 | POV essays, founder content |
 | content repurposing | 🗓 | 1-to-N asset workflow |
 
@@ -111,18 +111,18 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 |---|---|---|
 | keyword-research | ✅ | topical authority, clustering |
 | seo-audit | ✅ | 5-pillar audit |
-| technical-seo | 🔧 | crawl, index, CWV, JS, log files, schema |
-| link-building | 🔧 | prospecting, digital PR, anchors |
-| programmatic-seo | 🔧 | templates, data sources, thin-content risk |
-| local-seo | 🔧 | GBP, citations, reviews |
-| serp-analysis | 🔧 | features, intent, opportunity |
+| technical-seo | ✅ | crawl, index, CWV, JS, log files, schema |
+| link-building | ✅ | prospecting, digital PR, anchors |
+| programmatic-seo | ✅ | templates, data sources, thin-content risk |
+| local-seo | ✅ | GBP, citations, reviews |
+| serp-analysis | ✅ | features, intent, opportunity |
 | international/enterprise SEO | 🗓 | hreflang, multi-region |
 
 ### AI search (GEO/AEO)
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | ai-search-audit | ✅ | ChatGPT/Perplexity/Claude/Gemini visibility |
-| entity-optimization | 🔧 | entity extraction, knowledge graph, citations |
+| entity-optimization | ✅ | entity extraction, knowledge graph, citations |
 | AI citation acquisition | 🗓 | source placement, wiki/data citations |
 | AI answer tracking | 🗓 | monitoring tools, share-of-voice |
 
@@ -131,9 +131,9 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 |---|---|---|
 | social-strategy | ✅ | cross-platform strategy |
 | linkedin-content | ✅ | personal + company brand |
-| reddit-engagement | 🔧 | community participation, compliance |
-| youtube-strategy | 🔧 | channel, SEO, retention, formats |
-| community-strategy | 🔧 | Discord/Telegram/Slack, flywheel |
+| reddit-engagement | ✅ | community participation, compliance |
+| youtube-strategy | ✅ | channel, SEO, retention, formats |
+| community-strategy | ✅ | Discord/Telegram/Slack, flywheel |
 | X/Twitter growth | 🗓 | threads, engagement |
 | Instagram/TikTok organic | 🗓 | Reels/Shorts formats |
 | Pinterest/Threads | 🗓 | platform playbooks |
@@ -142,7 +142,7 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | lifecycle-sequences | ✅ | onboarding → retention → winback |
-| content-calendar | 🔧 | editorial planning, cadence |
+| content-calendar | ✅ | editorial planning, cadence |
 | deliverability | 🗓 | SPF/DKIM/DMARC, warming, reputation |
 | newsletter operations | 🗓 | format, growth, engagement |
 
@@ -163,19 +163,19 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | paid-strategy | ✅ | platform selection, funnel design |
-| media-planning | 🔧 | budget allocation, channel mix ("₹10 lakh → where?") |
-| performance-reporting | 🔧 | cross-platform rollups, blended CAC/ROAS |
+| media-planning | ✅ | budget allocation, channel mix ("₹10 lakh → where?") |
+| performance-reporting | ✅ | cross-platform rollups, blended CAC/ROAS |
 | incrementality & MMM | 🔧 (in optimize) | geo tests, holdouts, MMM |
 
 ### Platform execution
 | Platform | Status | Coverage depth |
 |---|---|---|
 | Meta (FB/IG) | ✅ | setup, structure, optimization |
-| Google Ads | 🔧 | Search/Shopping/PMax/Display/YouTube |
-| LinkedIn Ads | 🔧 | Sponsored/TLA/Conversation, ABM targeting |
-| TikTok Ads | 🔧 | Spark, ecommerce, creative-led |
-| Reddit Ads | 🔧 | community-native creative, placements |
-| Amazon Ads | 🔧 | SP/SB/SD, ACoS, listing synergy |
+| Google Ads | ✅ | Search/Shopping/PMax/Display/YouTube |
+| LinkedIn Ads | ✅ | Sponsored/TLA/Conversation, ABM targeting |
+| TikTok Ads | ✅ | Spark, ecommerce, creative-led |
+| Reddit Ads | ✅ | community-native creative, placements |
+| Amazon Ads | ✅ | SP/SB/SD, ACoS, listing synergy |
 | X/Twitter Ads | 🗓 | — |
 | Pinterest Ads | 🗓 | — |
 | Microsoft Ads | 🗓 | — |
@@ -191,7 +191,7 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 |---|---|---|
 | ad-creative-generator | ✅ | angles, formats, platforms |
 | hook-frameworks | ✅ | scroll-stoppers, patterns |
-| creative-testing | 🔧 | testing design, fatigue detection, scoring |
+| creative-testing | ✅ | testing design, fatigue detection, scoring |
 | UGC & creator briefs | 🗓 | brief generation, creator outreach |
 | ad library research | 🗓 | competitor creative mining |
 
@@ -210,8 +210,8 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | metrics-framework | ✅ | stage-appropriate metrics |
-| analytics-setup | 🔧 | GA4/GTM, event taxonomy, tracking plans |
-| funnel-analysis | 🔧 | stage-by-stage drop-off diagnosis |
+| analytics-setup | ✅ | GA4/GTM, event taxonomy, tracking plans |
+| funnel-analysis | ✅ | stage-by-stage drop-off diagnosis |
 | product analytics | 🗓 | Mixpanel/Amplitude/PostHog |
 | dashboard design | 🗓 | exec dashboards, self-serve |
 
@@ -219,23 +219,23 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | attribution-model-selection | ✅ | model choice by maturity |
-| mmm-incrementality | 🔧 | geo experiments, holdouts, MMM |
+| mmm-incrementality | ✅ | geo experiments, holdouts, MMM |
 | CRM/pipeline attribution | 🗓 | lead → revenue mapping |
 
 ### CRO
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | cro-audit | ✅ | friction, drop-offs, opportunities |
-| landing-page-optimization | 🔧 | LP-specific optimization |
-| signup-flow | 🔧 | signup/onboarding conversion |
+| landing-page-optimization | ✅ | LP-specific optimization |
+| signup-flow | ✅ | signup/onboarding conversion |
 | checkout optimization | 🗓 | payments, address, one-click |
 | forms & microcopy | 🗓 | — |
 
 ### Experimentation
 | Capability | Status | Sub-capabilities |
 |---|---|---|
-| ab-testing | 🔧 | design, significance, sample size |
-| experiment-prioritization | 🔧 | ICE/RICE/PIE/PXL |
+| ab-testing | ✅ | design, significance, sample size |
+| experiment-prioritization | ✅ | ICE/RICE/PIE/PXL |
 | experimentation program | 🗓 | velocity, learning library |
 
 ### Automation & ops
@@ -244,7 +244,7 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | workflow-builder | ✅ | n8n/Zapier/Make, MCP |
 | CRM & lead ops | 🗓 | routing, scoring, lifecycle stages |
 | UTM & campaign ops | 🗓 | taxonomy, governance |
-| calendar & planning | 🔧 | content-calendar (in channels) |
+| calendar & planning | ✅ | content-calendar (in channels) |
 
 ---
 
