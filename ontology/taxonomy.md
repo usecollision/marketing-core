@@ -14,6 +14,8 @@
 - PLG / SLG / FLG
 - Growth Loops
 - Marketing Planning
+- Market Sizing (TAM/SAM/SOM)
+- Pricing & Packaging Strategy
 
 ### Customer & Market Research
 - Customer Interviews
@@ -25,6 +27,8 @@
 - Market Intelligence
 - Trend Detection
 - Demand & Intent Research
+- Survey Design (NPS/CSAT)
+- Account Intelligence (ABM firmographics/technographics)
 
 ### Competitive Intelligence
 - Competitor Websites & Positioning
@@ -34,6 +38,7 @@
 - Pricing Intelligence
 - Traffic & Backlink Analysis
 - Comparison/Alternative Pages
+- Competitor Battlecards (sales enablement)
 
 ### SEO
 - Technical SEO (crawlability, indexation, speed)
@@ -45,6 +50,7 @@
 - Schema & Structured Data
 - Site Architecture & Internal Linking
 - SERP Analysis
+- SERP Feature Analysis (featured snippets, PAA)
 
 ### AI Search (AEO/GEO)
 - Answer Engine Optimization (AEO)
@@ -65,6 +71,7 @@
 - Amazon Ads
 - Programmatic & Native
 - Podcast/Newsletter Ads
+- Cross-platform Media Planning & Budget Allocation
 
 ### Ad Creative
 - Hooks & Headlines
@@ -74,6 +81,7 @@
 - Creative Research & Testing
 - Fatigue Detection
 - Ad Libraries Analysis
+- Creative Scoring & Structured Testing
 
 ### Content & Editorial
 - Content Strategy
@@ -83,6 +91,7 @@
 - Thought Leadership
 - Content Repurposing
 - Distribution Strategy
+- Content Calendar & Editorial Operations
 
 ### Copywriting
 - Landing Page Copy
@@ -91,6 +100,11 @@
 - Ad Copy
 - Video Scripts
 - Microcopy & UX Writing
+- Brand Voice & Tone Guides
+- Messaging Hierarchy & Architecture
+- Customer Language Banks
+- Objection Handling & Rebuttals
+- Sales Decks & Collateral
 
 ### Social Media
 - LinkedIn (personal brand, company, ads)
@@ -100,6 +114,7 @@
 - YouTube (SEO, scripts, thumbnails)
 - Instagram (Reels, Stories, feed)
 - Discord & Telegram (community)
+- Community Strategy (flywheel, moderation)
 
 ### Outbound & Sales
 - Cold Email Sequences
@@ -127,6 +142,7 @@
 - A/B & Multivariate Testing
 - Experimentation Frameworks
 - Pricing Page Optimization
+- Experiment Prioritization (ICE/RICE/PIE/PXL)
 
 ### Analytics & Attribution
 - GA4/GTM Implementation
@@ -136,6 +152,7 @@
 - Funnel Analysis
 - CAC/LTV/ROAS/MER Metrics
 - Dashboard Design
+- Event Taxonomy & Tracking Plans
 
 ### E-commerce/DTC
 - Shopify Marketing

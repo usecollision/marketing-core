@@ -25,10 +25,15 @@ When a user says /marketing-do [task], route as follows:
 | Intent Pattern | Route To |
 |---------------|----------|
 | strategy, GTM, positioning, ICP, pricing, research, customer, interview, Reddit mining, competitor, competitive, spy, benchmark | marketing-intelligence |
+| TAM, SAM, SOM, market size, market sizing, trend, survey, NPS, social listening, battlecard, account research, ABM research | marketing-intelligence |
 | copy, headline, landing page copy, CTA, content, blog, newsletter, case study | marketing-messaging |
+| brand voice, voice guide, value proposition, USP, messaging hierarchy, customer language, objection, rebuttal, email copy, sales deck, pitch deck, video script | marketing-messaging |
 | SEO, keywords, technical, backlinks, sitemap, AI search, AEO, GEO, LLMO, entity, social, LinkedIn post, tweet, thread, cold email, outbound, sequence, prospecting, lifecycle, onboarding, nurture, retention email | marketing-channels |
+| technical SEO, link building, programmatic SEO, local SEO, Google Business Profile, SERP, schema, structured data, content calendar, Reddit engagement, YouTube, community, Discord, Telegram | marketing-channels |
 | ads, paid, Meta, Google Ads, campaign budget, ad creative, hooks, UGC, carousel, video ad, Shopify, DTC, ecommerce, Amazon, PDP | marketing-paid |
+| LinkedIn ads, TikTok ads, Reddit ads, media planning, budget allocation, creative testing, fatigue, performance reporting, blended ROAS | marketing-paid |
 | CRO, conversion, A/B test, landing page opt, analytics, GA4, metrics, dashboard, funnel, attribution, MMM, incrementality, tracking, automation, workflow, n8n, Zapier, MCP | marketing-optimize |
+| GA4 setup, GTM, event taxonomy, signup flow, experiment, ICE, RICE, sample size, statistical significance, geo test, holdout | marketing-optimize |
 
 ### Multi-Skill Flows
 Common chained workflows:
