@@ -5,17 +5,17 @@
 
 ## Layer 1: Strategy & Intelligence (inputs to everything)
 - marketing-intelligence (strategy + research + intelligence) → depends on: marketing-core
-  - skills (16): growth-strategy, gtm-plan, icp-builder, positioning-framework, customer-research, reddit-research, review-mining, competitor-audit, market-sizing, customer-interviews, survey-design, social-listening, trend-detection, pricing-intelligence, competitor-battlecards, account-intelligence
+  - skills (24): growth-strategy, gtm-plan, icp-builder, positioning-framework, customer-research, reddit-research, review-mining, competitor-audit, market-sizing, customer-interviews, survey-design, social-listening, trend-detection, pricing-intelligence, competitor-battlecards, account-intelligence, market-map, demand-analysis, intent-signals, ad-library-research, technology-analysis, personas, win-loss-analysis, pricing-packaging-strategy
 
 ## Layer 2: Messaging & Content (consumes research, feeds channels)
 - marketing-messaging (copy + content) → depends on: marketing-core, marketing-intelligence
   - skills (12): conversion-copywriting, landing-page-copy, content-strategy, brand-voice, value-proposition, messaging-hierarchy, customer-language-bank, objection-handling, email-copy, case-study-builder, sales-deck, video-scripts
 
 ## Layer 3: Channels (execution layer)
-- marketing-channels (seo + ai-search + social + email + outbound + pr + launches + events) → depends on: marketing-core, marketing-intelligence, marketing-messaging
-  - skills (25): keyword-research, seo-audit, ai-search-audit, linkedin-content, social-strategy, lifecycle-sequences, cold-email-sequence, technical-seo, link-building, programmatic-seo, local-seo, serp-analysis, entity-optimization, content-calendar, reddit-engagement, youtube-strategy, community-strategy, pr-strategy, press-pitching, press-release, newsjacking, product-launch-playbook, product-hunt-launch, podcast-appearances, events-webinars
+- marketing-channels (seo + ai-search + social + email + outbound + pr + launches + events + partnerships + creators) → depends on: marketing-core, marketing-intelligence, marketing-messaging
+  - skills (32): keyword-research, seo-audit, ai-search-audit, linkedin-content, social-strategy, lifecycle-sequences, cold-email-sequence, technical-seo, link-building, programmatic-seo, local-seo, serp-analysis, entity-optimization, content-calendar, reddit-engagement, youtube-strategy, community-strategy, pr-strategy, press-pitching, press-release, newsjacking, product-launch-playbook, product-hunt-launch, podcast-appearances, events-webinars, partnership-strategy, co-marketing, affiliate-program, referral-program, influencer-marketing, creator-outreach, ambassador-program
 - marketing-paid (paid + ad-creative + ecommerce) → depends on: marketing-core, marketing-intelligence, marketing-messaging
-  - skills (21): paid-strategy, meta-ads, ad-creative-generator, hook-frameworks, shopify-marketing-audit, google-ads, linkedin-ads, tiktok-ads, amazon-ads, reddit-ads, media-planning, creative-testing, performance-reporting, microsoft-ads, x-ads, apple-search-ads, pinterest-ads, snapchat-ads, quora-ads, native-ads, programmatic-ctv
+  - skills (27): paid-strategy, meta-ads, ad-creative-generator, hook-frameworks, shopify-marketing-audit, google-ads, linkedin-ads, tiktok-ads, amazon-ads, reddit-ads, media-planning, creative-testing, performance-reporting, microsoft-ads, x-ads, apple-search-ads, pinterest-ads, snapchat-ads, quora-ads, native-ads, programmatic-ctv, spotify-ads, podcast-newsletter-ads, marketplace-expansion, shopping-feeds, ugc-advertising, retail-media
 
 ## Layer 4: Optimization (improves channels)
 - marketing-optimize (analytics + attribution + cro + automation) → depends on: marketing-core
