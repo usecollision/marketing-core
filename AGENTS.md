@@ -7,15 +7,15 @@ This file instructs AI agents on how to navigate, discover, and chain skills acr
 Before executing ANY marketing skill:
 1. Read context/product-marketing.md for product, ICP, positioning
 2. Read context/project-context.md for current goals and constraints
-3. Check the skill's equired_context field for additional files
+3. Check the skill's required_context field for additional files
 
 ## Skill Discovery
-Skills live in domain repos under usecollision/marketing-*. Each skill is a SKILL.md file following the template in 	emplates/SKILL-TEMPLATE.md.
+Skills live in domain repos under usecollision/marketing-*. Each skill is a SKILL.md file following the template in templates/SKILL-TEMPLATE.md.
 
 To find the right skill:
-1. Match user intent to skill 	riggers in frontmatter
+1. Match user intent to skill triggers in frontmatter
 2. Check category field for domain alignment
-3. Review elated_skills for chaining opportunities
+3. Review related_skills for chaining opportunities
 
 ## Routing Logic
 
@@ -24,38 +24,26 @@ When a user says /marketing-do [task], route as follows:
 
 | Intent Pattern | Route To |
 |---------------|----------|
-| strategy, GTM, positioning, ICP, pricing | marketing-strategy |
-| research, customer, interview, Reddit mining | marketing-research |
-| competitor, competitive, spy, benchmark | marketing-intelligence |
-| SEO, keywords, technical, backlinks, sitemap | marketing-seo |
-| AI search, AEO, GEO, LLMO, entity | marketing-ai-search |
-| ads, paid, Meta, Google Ads, campaign budget | marketing-paid |
-| ad creative, hooks, UGC, carousel, video ad | marketing-ad-creative |
-| content, blog, newsletter, case study | marketing-content |
-| copy, headline, landing page copy, CTA | marketing-copy |
-| social, LinkedIn post, tweet, thread | marketing-social |
-| cold email, outbound, sequence, prospecting | marketing-outbound |
-| lifecycle, onboarding, nurture, retention email | marketing-email |
-| CRO, conversion, A/B test, landing page opt | marketing-cro |
-| analytics, GA4, metrics, dashboard, funnel | marketing-analytics |
-| attribution, MMM, incrementality, tracking | marketing-attribution |
-| Shopify, DTC, ecommerce, Amazon, PDP | marketing-ecommerce |
-| automation, workflow, n8n, Zapier, MCP | marketing-automation |
+| strategy, GTM, positioning, ICP, pricing, research, customer, interview, Reddit mining, competitor, competitive, spy, benchmark | marketing-intelligence |
+| copy, headline, landing page copy, CTA, content, blog, newsletter, case study | marketing-messaging |
+| SEO, keywords, technical, backlinks, sitemap, AI search, AEO, GEO, LLMO, entity, social, LinkedIn post, tweet, thread, cold email, outbound, sequence, prospecting, lifecycle, onboarding, nurture, retention email | marketing-channels |
+| ads, paid, Meta, Google Ads, campaign budget, ad creative, hooks, UGC, carousel, video ad, Shopify, DTC, ecommerce, Amazon, PDP | marketing-paid |
+| CRO, conversion, A/B test, landing page opt, analytics, GA4, metrics, dashboard, funnel, attribution, MMM, incrementality, tracking, automation, workflow, n8n, Zapier, MCP | marketing-optimize |
 
 ### Multi-Skill Flows
 Common chained workflows:
 
 **New product launch:**
-marketing-strategy (positioning) → marketing-research (ICP validation) → marketing-copy (messaging) → marketing-content (launch content) → marketing-paid (launch ads) → marketing-social (launch posts) → marketing-analytics (tracking)
+marketing-intelligence (positioning, ICP, research) → marketing-messaging (messaging, content) → marketing-paid (launch ads) → marketing-channels (social, email) → marketing-optimize (tracking)
 
 **SEO overhaul:**
-marketing-seo (audit) → marketing-ai-search (AI visibility) → marketing-content (content plan) → marketing-copy (page copy) → marketing-analytics (tracking) → marketing-cro (conversion)
+marketing-channels (seo-audit, ai-search-audit) → marketing-messaging (content plan, page copy) → marketing-optimize (tracking, CRO)
 
 **Outbound campaign:**
-marketing-research (prospect research) → marketing-intelligence (competitor intel) → marketing-copy (email copy) → marketing-outbound (sequences) → marketing-analytics (tracking)
+marketing-intelligence (prospect research, competitor intel) → marketing-messaging (email copy) → marketing-channels (outbound sequences) → marketing-optimize (tracking)
 
 **Growth optimization:**
-marketing-analytics (funnel analysis) → marketing-cro (conversion audit) → marketing-copy (copy improvements) → marketing-paid (ad optimization) → marketing-attribution (measurement)
+marketing-optimize (funnel analysis, conversion audit) → marketing-messaging (copy improvements) → marketing-paid (ad optimization) → marketing-optimize (measurement)
 
 ## Dependency Rules
 - Never execute a channel skill (paid, social, outbound, email) without first confirming product-marketing context exists

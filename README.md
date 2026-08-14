@@ -7,7 +7,7 @@ The kernel of the UseCollision Marketing OS. Shared context, ontology, routing c
 - context/ - Brand/product context templates
 - frameworks/ - Universal marketing frameworks (AARRR, JTBD, etc.)
 - ontology/ - Marketing taxonomy and capability definitions
-- routing/ - Router skills and agent instructions
+- routing/ - Router skills and agent instructions (see AGENTS.md)
 - templates/ - SKILL.md template and folder structure spec
 - dependency-graph/ - Cross-repo dependency definitions
 
