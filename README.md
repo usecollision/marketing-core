@@ -10,9 +10,12 @@ The kernel of the UseCollision Marketing OS. Shared context, ontology, routing c
 - capability-catalog.md - The canonical capability universe (live vs planned, OSS reuse targets)
 - oss-landscape.md - OSS discovery research (24 domains, ~190 repos)
 - agents/agent-layer.md - Director/specialist/critic agent orchestration map
-- execution/mcp-map.md - MCP server + tool wiring with capability gates
-- resilience.md - Platform-change monitoring methodology
+- execution/tool-registry.yaml - Canonical allowed_tools → server/gate binding (runtime reads this)
+- execution/mcp-map.md - Human-readable wiring guide + live/blocked status
+- execution/protocol.md - Strategist→operator execution flow + gate rules
+- scripts/validate-tools.py - Cross-check every skill's allowed_tools against the registry
 - scripts/check-integrity.py - Weekly integrity watchdog (silent when healthy)
+- resilience.md - Platform-change monitoring methodology
 - routing/ - Router skills and agent instructions (see AGENTS.md)
 - templates/ - SKILL.md template and folder structure spec
 - dependency-graph/ - Cross-repo dependency definitions

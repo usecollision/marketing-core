@@ -1,0 +1,180 @@
+# Marketing OS — Tool Registry
+# Canonical binding between every skill's allowed_tools declaration and a real,
+# installable tool. Single source of truth for Hermes config and any future
+# Collision runtime. allowed_tools must never reference a key not defined here.
+#
+# Gates: gated (spend/publish/send = human approval) | scoped (read-only) | open (free)
+# Status: connected | free | needs-oauth | needs-key | swap
+
+tools:
+  mcp:web-search:
+    server: parallel_search
+    gate: open
+    status: connected
+    note: web_search + web_fetch; powers the entire intelligence layer
+    serves: 52 skills
+
+  mcp:web-scraper:
+    server: browser_automation
+    gate: open
+    status: connected
+    note: native browser tools for render-heavy pages
+    serves:
+      - account-intelligence
+      - ad-library-research
+      - pricing-intelligence
+      - review-mining
+      - social-listening
+      - technology-analysis
+
+  mcp:pagespeed:
+    server: pagespeed-api
+    gate: open
+    status: free
+    note: Google PageSpeed Insights; free, no key for low volume
+    serves:
+      - seo-audit
+      - technical-seo
+
+  mcp:reddit-scraper:
+    server: reddit-json
+    gate: open
+    status: free
+    note: Reddit .json endpoints; no auth for public listing
+    serves:
+      - reddit-research
+
+  mcp:semrush:
+    server: open-seo
+    gate: open
+    status: swap
+    note: paid -> free OSS alternative (every-app/open-seo)
+    serves:
+      - competitor-audit
+      - keyword-research
+
+  mcp:ahrefs:
+    server: open-seo
+    gate: open
+    status: swap
+    note: paid -> free OSS alternative (every-app/open-seo)
+    serves:
+      - competitor-audit
+      - keyword-research
+
+  mcp:analytics:
+    server: ga4-mcp
+    gate: scoped
+    status: needs-oauth
+    note: GA4 Data API; Mixpanel/Amplitude/PostHog via their APIs
+    serves: 15 skills
+
+  mcp:search-console:
+    server: google-search-console-mcp
+    gate: scoped
+    status: needs-oauth
+    serves:
+      - seo-audit
+      - technical-seo
+
+  mcp:ai-query:
+    server: perplexity-api
+    gate: scoped
+    status: needs-key
+    note: query AI engines for share-of-voice / answer tracking
+    serves:
+      - ai-answer-tracking
+      - ai-search-audit
+      - entity-optimization
+
+  mcp:heatmap:
+    server: hotjar-api
+    gate: scoped
+    status: needs-oauth
+    note: Hotjar / Clarity / FullStory session + heatmap data
+    serves:
+      - checkout-optimization
+      - cro-audit
+      - landing-page-optimization
+
+  mcp:ads-platforms:
+    server: markifact-mcp
+    gate: gated
+    status: needs-oauth
+    note: one server; Google + Meta + GA4 + TikTok + LinkedIn (300+ ops)
+    serves:
+      - paid-strategy
+
+  mcp:meta-ads:
+    server: meta-ads-mcp
+    gate: gated
+    status: needs-oauth
+    note: Meta Marketing API; campaign create/edit gated
+    serves:
+      - meta-ads
+
+  mcp:crm:
+    server: hubspot-api
+    gate: gated
+    status: needs-oauth
+    note: HubSpot / Salesforce / Pipedrive; reads scoped, writes gated
+    serves:
+      - account-intelligence
+      - cold-email-sequence
+      - customer-interviews
+      - customer-research
+
+  mcp:email:
+    server: gmail-api
+    gate: gated
+    status: needs-oauth
+    note: send + read email; send gated, read scoped
+    serves:
+      - cold-email-sequence
+
+  mcp:email-platform:
+    server: klaviyo-api
+    gate: gated
+    status: needs-key
+    note: Klaviyo / Mailchimp for lifecycle sends
+    serves:
+      - lifecycle-sequences
+
+  mcp:shopify:
+    server: shopify-admin-api
+    gate: gated
+    status: needs-key
+    serves:
+      - shopify-marketing-audit
+
+  mcp:calendar:
+    server: google-calendar-api
+    gate: gated
+    status: needs-oauth
+    note: schedule interviews; creates events
+    serves:
+      - customer-interviews
+      - customer-research
+
+  mcp:automation:
+    server: n8n-api
+    gate: gated
+    status: needs-key
+    note: n8n / Zapier / Make workflow execution
+    serves:
+      - workflow-builder
+
+  mcp:image-generation:
+    server: image-gen-api
+    gate: gated
+    status: needs-key
+    note: creative generation for ad mockups
+    serves:
+      - ad-creative-generator
+
+summary:
+  open_live_or_free: 6
+  scoped_needs_auth: 4
+  gated_needs_auth: 9
+  operator_skills: 74
+  strategist_only_skills: 63
