@@ -138,6 +138,18 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | Instagram/TikTok organic | 🗓 | Reels/Shorts formats |
 | Pinterest/Threads | 🗓 | platform playbooks |
 
+### PR, launches & events
+| Capability | Status | Sub-capabilities |
+|---|---|---|
+| pr-strategy | 🔨 | narrative, target publications, angles, SOV |
+| press-pitching | 🔨 | media lists, angle-matching, follow-up |
+| press-release | 🔨 | newswire format, distribution, timing |
+| newsjacking | 🔨 | rapid response, safe hooks |
+| product-launch-playbook | 🔨 | runbook, sequencing, measurement |
+| product-hunt-launch | 🔨 | PH + HN + BetaList + directories |
+| podcast-appearances | 🔨 | show discovery, pitching, promos |
+| events-webinars | 🔨 | format, promotion, follow-up |
+
 ### Email & lifecycle
 | Capability | Status | Sub-capabilities |
 |---|---|---|
