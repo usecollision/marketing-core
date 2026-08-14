@@ -141,14 +141,14 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 ### PR, launches & events
 | Capability | Status | Sub-capabilities |
 |---|---|---|
-| pr-strategy | 🔨 | narrative, target publications, angles, SOV |
-| press-pitching | 🔨 | media lists, angle-matching, follow-up |
-| press-release | 🔨 | newswire format, distribution, timing |
-| newsjacking | 🔨 | rapid response, safe hooks |
-| product-launch-playbook | 🔨 | runbook, sequencing, measurement |
-| product-hunt-launch | 🔨 | PH + HN + BetaList + directories |
-| podcast-appearances | 🔨 | show discovery, pitching, promos |
-| events-webinars | 🔨 | format, promotion, follow-up |
+| pr-strategy | ✅ | narrative, target publications, angles, SOV |
+| press-pitching | ✅ | media lists, angle-matching, follow-up |
+| press-release | ✅ | newswire format, distribution, timing |
+| newsjacking | ✅ | rapid response, safe hooks |
+| product-launch-playbook | ✅ | runbook, sequencing, measurement |
+| product-hunt-launch | ✅ | PH + HN + BetaList + directories |
+| podcast-appearances | ✅ | show discovery, pitching, promos |
+| events-webinars | ✅ | format, promotion, follow-up |
 
 ### Email & lifecycle
 | Capability | Status | Sub-capabilities |
@@ -188,15 +188,15 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | TikTok Ads | ✅ | Spark, ecommerce, creative-led |
 | Reddit Ads | ✅ | community-native creative, placements |
 | Amazon Ads | ✅ | SP/SB/SD, ACoS, listing synergy |
-| X/Twitter Ads | 🔨 | — |
-| Pinterest Ads | 🔨 | — |
-| Microsoft Ads | 🔨 | — |
-| Apple Search Ads | 🔨 | — |
-| Snapchat Ads | 🔨 | — |
-| Quora Ads | 🔨 | — |
+| X/Twitter Ads | ✅ | — |
+| Pinterest Ads | ✅ | — |
+| Microsoft Ads | ✅ | — |
+| Apple Search Ads | ✅ | — |
+| Snapchat Ads | ✅ | — |
+| Quora Ads | ✅ | — |
 | Spotify Ads | 🗓 | — |
-| Native (Taboola/Outbrain) | 🔨 | — |
-| Programmatic/CTV | 🔨 | DSPs, retargeting |
+| Native (Taboola/Outbrain) | ✅ | — |
+| Programmatic/CTV | ✅ | DSPs, retargeting |
 
 ### Creative intelligence
 | Capability | Status | Sub-capabilities |
@@ -224,15 +224,15 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | metrics-framework | ✅ | stage-appropriate metrics |
 | analytics-setup | ✅ | GA4/GTM, event taxonomy, tracking plans |
 | funnel-analysis | ✅ | stage-by-stage drop-off diagnosis |
-| product analytics | 🔨 | Mixpanel/Amplitude/PostHog |
-| dashboard design | 🔨 | exec dashboards, self-serve |
+| product analytics | ✅ | Mixpanel/Amplitude/PostHog |
+| dashboard design | ✅ | exec dashboards, self-serve |
 
 ### Attribution
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | attribution-model-selection | ✅ | model choice by maturity |
 | mmm-incrementality | ✅ | geo experiments, holdouts, MMM |
-| CRM/pipeline attribution | 🔨 | lead → revenue mapping |
+| CRM/pipeline attribution | ✅ | lead → revenue mapping |
 
 ### CRO
 | Capability | Status | Sub-capabilities |
@@ -240,8 +240,8 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | cro-audit | ✅ | friction, drop-offs, opportunities |
 | landing-page-optimization | ✅ | LP-specific optimization |
 | signup-flow | ✅ | signup/onboarding conversion |
-| checkout optimization | 🔨 | payments, address, one-click |
-| forms & microcopy | 🔨 | — |
+| checkout optimization | ✅ | payments, address, one-click |
+| forms & microcopy | ✅ | — |
 
 ### Experimentation
 | Capability | Status | Sub-capabilities |
@@ -255,7 +255,7 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 |---|---|---|
 | workflow-builder | ✅ | n8n/Zapier/Make, MCP |
 | CRM & lead ops | 🗓 | routing, scoring, lifecycle stages |
-| UTM & campaign ops | 🔨 | taxonomy, governance |
+| UTM & campaign ops | ✅ | taxonomy, governance |
 | calendar & planning | ✅ | content-calendar (in channels) |
 
 ---
