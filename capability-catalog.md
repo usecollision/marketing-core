@@ -28,10 +28,10 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | market-sizing | ✅ | TAM/SAM/SOM, top-down, bottom-up, segment sizing |
-| market-map | 🗓 | category mapping, competitor positioning map |
+| market-map | 🔨 | category mapping, competitor positioning map |
 | market-trends | ✅ | trend-detection, durability validation, signal sources |
 | industry/category analysis | 🗓 | Porter's 5F, category lifecycle |
-| demand analysis | 🗓 | search demand, review velocity, Google Trends |
+| demand analysis | 🔨 | search demand, review velocity, Google Trends |
 | market forecasting | 🗓 | growth projections, scenario modeling |
 
 ### Customer research
@@ -52,16 +52,16 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | competitor-audit | ✅ | positioning, messaging, content, SEO, ads, product |
 | competitor-battlecards | ✅ | win/loss plays, objection rebuttals |
 | pricing-intelligence | ✅ | pricing teardowns, WTP estimation |
-| ad-library research | 🗓 | Meta/Google ad library mining |
-| technology analysis | 🗓 | BuiltWith/stack fingerprinting |
+| ad-library research | 🔨 | Meta/Google ad library mining |
+| technology analysis | 🔨 | BuiltWith/stack fingerprinting |
 
 ### Audience intelligence
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | icp-builder | ✅ | segmentation, validation |
 | account-intelligence | ✅ | firmographics, technographics, funding signals (ABM) |
-| personas | 🗓 | persona assembly from research |
-| intent signals | 🗓 | G2 intent, review velocity, job-change triggers |
+| personas | 🔨 | persona assembly from research |
+| intent signals | 🔨 | G2 intent, review velocity, job-change triggers |
 
 ### Strategy & GTM
 | Capability | Status | Sub-capabilities |
@@ -69,7 +69,7 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | growth-strategy | ✅ | growth model, channels, loops |
 | gtm-plan | ✅ | GTM for launch/expansion |
 | positioning-framework | ✅ | April Dunford methodology |
-| pricing & packaging strategy | 🗓 | price design, packaging, monetization |
+| pricing & packaging strategy | 🔨 | price design, packaging, monetization |
 
 ---
 
@@ -194,7 +194,7 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | Apple Search Ads | ✅ | — |
 | Snapchat Ads | ✅ | — |
 | Quora Ads | ✅ | — |
-| Spotify Ads | 🗓 | — |
+| Spotify Ads | 🔨 | — |
 | Native (Taboola/Outbrain) | ✅ | — |
 | Programmatic/CTV | ✅ | DSPs, retargeting |
 
@@ -204,15 +204,15 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | ad-creative-generator | ✅ | angles, formats, platforms |
 | hook-frameworks | ✅ | scroll-stoppers, patterns |
 | creative-testing | ✅ | testing design, fatigue detection, scoring |
-| UGC & creator briefs | 🗓 | brief generation, creator outreach |
-| ad library research | 🗓 | competitor creative mining |
+| UGC & creator briefs | 🔨 | brief generation, creator outreach |
+| ad library research | 🔨 | competitor creative mining |
 
 ### Ecommerce
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | shopify-marketing-audit | ✅ | conversion, retention, growth |
-| marketplace expansion | 🗓 | Amazon/Flipkart/other marketplaces |
-| feeds & Merchant Center | 🗓 | shopping feeds, GMC health |
+| marketplace expansion | 🔨 | Amazon/Flipkart/other marketplaces |
+| feeds & Merchant Center | 🔨 | shopping feeds, GMC health |
 
 ---
 
