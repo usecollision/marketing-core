@@ -2,7 +2,7 @@
 
 The canonical map of everything the Marketing OS can do. Repository → domain → capability → sub-capability, with platform/workflow coverage and OSS reuse targets.
 
-**Status legend:** ✅ LIVE · 🔧 WAVE-1 (being built) · 🗓 PLANNED (wave 2+)
+**Status legend:** ✅ LIVE · 🗓 PLANNED (wave 2+)
 
 Generated from the capability-expansion research pass. Companion: `research/oss-landscape.md` (OSS discovery, 24 domains, ~190 repos).
 
@@ -165,7 +165,7 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | paid-strategy | ✅ | platform selection, funnel design |
 | media-planning | ✅ | budget allocation, channel mix ("₹10 lakh → where?") |
 | performance-reporting | ✅ | cross-platform rollups, blended CAC/ROAS |
-| incrementality & MMM | 🔧 (in optimize) | geo tests, holdouts, MMM |
+| incrementality & MMM | ✅ (in optimize) | geo tests, holdouts, MMM |
 
 ### Platform execution
 | Platform | Status | Coverage depth |
