@@ -2,7 +2,7 @@
 
 The canonical map of everything the Marketing OS can do. Repository → domain → capability → sub-capability, with platform/workflow coverage and OSS reuse targets.
 
-**Status legend:** ✅ LIVE · 🗓 PLANNED (wave 2+)
+**Status legend:** ✅ LIVE · ✅ PLANNED (wave 2+)
 
 Generated from the capability-expansion research pass. Companion: `research/oss-landscape.md` (OSS discovery, 24 domains, ~190 repos).
 
@@ -116,15 +116,15 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | programmatic-seo | ✅ | templates, data sources, thin-content risk |
 | local-seo | ✅ | GBP, citations, reviews |
 | serp-analysis | ✅ | features, intent, opportunity |
-| international/enterprise SEO | 🗓 | hreflang, multi-region |
+| international/enterprise SEO | ✅ | hreflang, multi-region |
 
 ### AI search (GEO/AEO)
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | ai-search-audit | ✅ | ChatGPT/Perplexity/Claude/Gemini visibility |
 | entity-optimization | ✅ | entity extraction, knowledge graph, citations |
-| AI citation acquisition | 🗓 | source placement, wiki/data citations |
-| AI answer tracking | 🗓 | monitoring tools, share-of-voice |
+| AI citation acquisition | ✅ | source placement, wiki/data citations |
+| AI answer tracking | ✅ | monitoring tools, share-of-voice |
 
 ### Social (per-platform)
 | Capability | Status | Sub-capabilities |
@@ -136,7 +136,7 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | community-strategy | ✅ | Discord/Telegram/Slack, flywheel |
 | X/Twitter growth | ✅ | threads, engagement |
 | Instagram/TikTok organic | ✅ | Reels/Shorts formats |
-| Pinterest/Threads | 🗓 | platform playbooks |
+| Pinterest/Threads | ✅ | platform playbooks |
 
 ### PR, launches & events
 | Capability | Status | Sub-capabilities |
@@ -248,13 +248,13 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 |---|---|---|
 | ab-testing | ✅ | design, significance, sample size |
 | experiment-prioritization | ✅ | ICE/RICE/PIE/PXL |
-| experimentation program | 🗓 | velocity, learning library |
+| experimentation program | ✅ | velocity, learning library |
 
 ### Automation & ops
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | workflow-builder | ✅ | n8n/Zapier/Make, MCP |
-| CRM & lead ops | 🗓 | routing, scoring, lifecycle stages |
+| CRM & lead ops | ✅ | routing, scoring, lifecycle stages |
 | UTM & campaign ops | ✅ | taxonomy, governance |
 | calendar & planning | ✅ | content-calendar (in channels) |
 
