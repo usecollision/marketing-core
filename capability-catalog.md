@@ -30,9 +30,9 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | market-sizing | ✅ | TAM/SAM/SOM, top-down, bottom-up, segment sizing |
 | market-map | ✅ | category mapping, competitor positioning map |
 | market-trends | ✅ | trend-detection, durability validation, signal sources |
-| industry/category analysis | 🔨 | Porter's 5F, category lifecycle |
+| industry/category analysis | ✅ | Porter's 5F, category lifecycle |
 | demand analysis | ✅ | search demand, review velocity, Google Trends |
-| market forecasting | 🔨 | growth projections, scenario modeling |
+| market forecasting | ✅ | growth projections, scenario modeling |
 
 ### Customer research
 | Capability | Status | Sub-capabilities |
@@ -43,8 +43,8 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | reddit-research | ✅ | pain mining, subreddit discovery |
 | review-mining | ✅ | G2/App Store/Amazon/Capterra/TrustRadius |
 | social-listening | ✅ | brand mentions, sentiment, conversation mining |
-| support-ticket mining | 🔨 | Zendesk/Intercom log analysis |
-| call-transcript analysis | 🔨 | Gong/Chorus mining |
+| support-ticket mining | ✅ | Zendesk/Intercom log analysis |
+| call-transcript analysis | ✅ | Gong/Chorus mining |
 
 ### Competitive intelligence
 | Capability | Status | Sub-capabilities |
@@ -89,7 +89,7 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | conversion-copywriting | ✅ | any-surface copy frameworks |
 | landing-page-copy | ✅ | hero → features → proof → objection → CTA |
 | email-copy | ✅ | subject lines, preview, body, CTA |
-| ad-copy | 🔨 | paid media copy (see marketing-paid hooks) |
+| ad-copy | ✅ | paid media copy (see marketing-paid hooks) |
 | objection-handling | ✅ | rebuttals, pre-emptive copy |
 | video-scripts | ✅ | short-form hooks, retain, payoff |
 
@@ -99,8 +99,8 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | content-strategy | ✅ | organic traffic, authority |
 | case-study-builder | ✅ | challenge-solution-results narrative |
 | sales-deck | ✅ | pitch narrative, slide-by-slide |
-| thought leadership | 🔨 | POV essays, founder content |
-| content repurposing | 🔨 | 1-to-N asset workflow |
+| thought leadership | ✅ | POV essays, founder content |
+| content repurposing | ✅ | 1-to-N asset workflow |
 
 ---
 
@@ -134,8 +134,8 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 | reddit-engagement | ✅ | community participation, compliance |
 | youtube-strategy | ✅ | channel, SEO, retention, formats |
 | community-strategy | ✅ | Discord/Telegram/Slack, flywheel |
-| X/Twitter growth | 🔨 | threads, engagement |
-| Instagram/TikTok organic | 🔨 | Reels/Shorts formats |
+| X/Twitter growth | ✅ | threads, engagement |
+| Instagram/TikTok organic | ✅ | Reels/Shorts formats |
 | Pinterest/Threads | 🗓 | platform playbooks |
 
 ### PR, launches & events
@@ -155,17 +155,17 @@ Generated from the capability-expansion research pass. Companion: `research/oss-
 |---|---|---|
 | lifecycle-sequences | ✅ | onboarding → retention → winback |
 | content-calendar | ✅ | editorial planning, cadence |
-| deliverability | 🔨 | SPF/DKIM/DMARC, warming, reputation |
-| newsletter operations | 🔨 | format, growth, engagement |
+| deliverability | ✅ | SPF/DKIM/DMARC, warming, reputation |
+| newsletter operations | ✅ | format, growth, engagement |
 
 ### Outbound
 | Capability | Status | Sub-capabilities |
 |---|---|---|
 | cold-email-sequence | ✅ | sequences, personalization |
-| lead sourcing/enrichment | 🔨 | list building, data providers |
-| multichannel outbound | 🔨 | email + LinkedIn + calls orchestration |
-| reply classification | 🔨 | positive/negative/objection routing |
-| domain reputation ops | 🔨 | rotation, warmup, scaling |
+| lead sourcing/enrichment | ✅ | list building, data providers |
+| multichannel outbound | ✅ | email + LinkedIn + calls orchestration |
+| reply classification | ✅ | positive/negative/objection routing |
+| domain reputation ops | ✅ | rotation, warmup, scaling |
 
 ---
 
